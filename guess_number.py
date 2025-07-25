@@ -11,5 +11,5 @@ while True:
         break
     elif rand_number > guess:
         print('Загаданное число больше')
-    else:
+    elif rand_number < guess:
         print('Загаданное число меньше')
